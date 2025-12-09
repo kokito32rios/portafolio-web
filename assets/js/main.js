@@ -106,7 +106,7 @@ const projects = [
 
 
     // PYTHON PROJECTS
-    {
+    /*{
         title: "Análisis Predictivo de Ventas",
         description: "Modelo de machine learning para predicción de ventas usando regresión y series temporales. Implementación con scikit-learn y análisis de features.",
         category: "python",
@@ -137,10 +137,10 @@ const projects = [
         icon: "fas fa-desktop",
         tags: ["Python", "Streamlit", "Plotly", "Data Viz"],
         link: "https://github.com/tu-usuario/proyecto-4"
-    },
+    },*/
 
     // POWER APPS PROJECTS
-    {
+    /*{
         title: "Monitor de Precios de Competencia",
         description: "Sistema automatizado de scraping para monitoreo de precios de e-commerce. Alertas automáticas y análisis de tendencias de pricing.",
         category: "powerapps",
@@ -171,10 +171,10 @@ const projects = [
         icon: "fas fa-newspaper",
         tags: ["Python", "RSS", "Web Scraping", "Automation"],
         link: "https://github.com/tu-usuario/proyecto-8"
-    },
+    },*/
 
     // POWER AUTOMATE PROJECTS
-    {
+    /*{
         title: "Segmentación de Clientes (Clustering)",
         description: "Análisis de segmentación usando K-Means y algoritmos de clustering para identificar grupos de clientes y estrategias personalizadas.",
         category: "powerautomate",
@@ -197,7 +197,7 @@ const projects = [
         icon: "fas fa-shield-alt",
         tags: ["Python", "Anomaly Detection", "Classification", "Finance"],
         link: "https://github.com/tu-usuario/proyecto-11"
-    }
+    }*/
 ];
 
 // Variable para mantener el filtro actual

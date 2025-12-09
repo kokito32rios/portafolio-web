@@ -202,7 +202,7 @@ const projects = [
 
 // Variable para mantener el filtro actual
 // Cuando ingresemos todas las categorias cambiar variable por all
-let currentFilter = 'powerbi'; 
+let currentFilter = ''; 
 
 // Render Projects
 function renderProjects() {

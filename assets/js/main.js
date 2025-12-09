@@ -198,6 +198,16 @@ const projects = [
         tags: ["Python", "Anomaly Detection", "Classification", "Finance"],
         link: "https://github.com/tu-usuario/proyecto-11"
     }*/
+
+    // DESARROLLOS WEB PROJECTS
+    {
+        title: "Wep spa Yaneth Jimenez",
+        description: "Desarrollo de una plataforma web para un spa de uñas que incluye página principal informativa, sistema de registro e inicio de sesión para manicuristas y administradores, y herramientas internas para gestionar citas, servicios y operaciones del negocio.",
+        category: "Web",
+        icon: "fas fa-globe",
+        tags: ["HTML", "CSS", "JS", "NODE JS", "MYSQL WORKBENCH"],
+        link: "https://spa-yaneth-jimenez.onrender.com"
+    },
 ];
 
 // Variable para mantener el filtro actual

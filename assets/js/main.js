@@ -215,6 +215,37 @@ const projects = [
 let currentFilter = ''; 
 
 // Render Projects
+/* function renderProjects() {
+    const projectsGrid = document.getElementById('projectsGrid');
+    projectsGrid.innerHTML = '';
+    
+    projects.forEach((project, index) => {
+        const projectCard = document.createElement('div');
+        projectCard.className = `project-card ${currentFilter === 'all' || currentFilter === project.category ? 'active' : ''}`;
+        projectCard.style.animationDelay = `${index * 0.1}s`;
+        
+        projectCard.innerHTML = `
+            <div class="project-image">
+                <i class="${project.icon}"></i>
+            </div>
+            <div class="project-content">
+                <h3>${project.title}</h3>
+                <p>${project.description}</p>
+                <div class="project-tags">
+                    ${project.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+                </div>
+                
+                <a href="${project.link}" class="project-link" target="_blank">
+                    Ver Proyecto <i class="fas fa-external-link-alt"></i>
+                </a>
+                
+            </div>
+        `;
+        
+        projectsGrid.appendChild(projectCard);
+    });
+} */  /* Descomentar esta y eliminar la de abajo cuando pongamos links en los proyectos */
+
 function renderProjects() {
     const projectsGrid = document.getElementById('projectsGrid');
     projectsGrid.innerHTML = '';
@@ -234,9 +265,8 @@ function renderProjects() {
                 <div class="project-tags">
                     ${project.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
                 </div>
-                <a href="${project.link}" class="project-link" target="_blank">
-                    Ver Proyecto <i class="fas fa-external-link-alt"></i>
-                </a>
+                
+                
             </div>
         `;
         
